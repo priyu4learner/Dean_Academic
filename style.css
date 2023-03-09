@@ -1,0 +1,91 @@
+body{
+    margin:0;
+    margin-top: 1%;
+}
+.header{
+    background-color: white;
+}
+@media (min-width: 1025px){
+    #logo{
+        transform: skewX(35deg);
+        width: 25vw;
+        float: right;
+    }
+.logo-mnnit{
+    background-color: #3db7ef;
+    box-shadow: 5px 15px 10px 2px rgb(0 0 0 / 25%);
+    transform: skewX(-35deg);
+    margin-left: -5vw;
+    margin-top: 0px;
+    width:32vw;
+}
+}
+@media (max-width: 1025px){
+.logo-mnnit{
+    background-color:#3db7ef;
+    box-shadow: 5px 15px 10px 2px rgb(0 0 0 / 25%);
+    margin-bottom: 2rem;
+}
+}
+.header_column{
+    font-family: 'Julius Sans One', sans-serif;
+    font-weight: 800;
+    font-size: 1.4rem;
+    text-align: center;
+    margin:auto;
+    margin-bottom: 0em;
+}
+.navbar{
+    margin-top: 1rem;
+    background-color: rgb(12, 12, 66);
+    color: #e7e7e7;;
+    font-size: 0.9rem;
+    font-weight: 600;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-bottom: 0em;
+    padding: 0%;
+    transform: skewX(-35deg);
+    margin-left: -2vw;
+}
+.item{
+    transform: skewX(35deg);
+    height: 3rem;
+    margin: auto;
+    padding: 0.8rem;
+    color: #e7e7e7;
+}
+.subheader{
+    margin: 2rem 0rem 2rem 0rem;
+    box-shadow: 1px 1px 1px 1px rgba(110, 33, 33, 0.25);
+}
+.btn{
+    color: #e7e7e7;
+    text-decoration: none;
+}
+.btn:hover{
+    color: #3db7ef;
+}
+h3{
+    color: #3db7ef;
+    font-family: 'Julius Sans One', sans-serif;
+    font-weight: 800;
+    font-size: 1.8vw;
+    text-align: left;
+    line-height: 2vw;
+}
+.footer{
+    background-color:rgb(12, 12, 66); 
+    color: #e7e7e7;
+    padding: 1.5rem;
+    font-size: 0.8rem;
+    margin-top: 5rem;
+    text-align: center;
+}
+table{
+    border:1px solid black;
+    margin-top:2rem;
+}
+td{
+    border:1px solid black;
+    padding:1rem;
+}
